@@ -2,7 +2,7 @@
 FROM nginx
 
 # Copy the static website files to the appropriate directory in the container
-COPY html /usr/share/nginx/html
+COPY . /usr/share/nginx/html/
 
 # Expose port 80
 EXPOSE 80
